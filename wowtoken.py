@@ -70,7 +70,7 @@ if __name__ == '__main__':
     
     API_URL_TOKEN_DAY:str = "https://wowtokenprices.com/current_prices.json"
     API_URL_TOKEN_SEVEN_DAY:str = "https://wowtokenprices.com/history_prices_7_day.json"
-    NTFY_TOPIC:str = "wowtokens"
+    NTFY_TOPIC:str = getenv("NTFY_TOPIC")
     API_URL_NTFY_SERVER:str = getenv("NTFY_SERVER_URL")+f"/{NTFY_TOPIC}/trigger"
     API_URL_TOKEN_GRAPH:str = "https://wowtokenprices.com"
 
