@@ -21,5 +21,5 @@ Create `.env` file in `~/python_scripts/` and put
 
 ```
 NTFY_SERVER_URL=<your-server-url-endpoint>
-TOPIC=<your-topic-to-publish-name>
+NTFY_TOPIC=<your-topic-to-publish-name>
 ```
