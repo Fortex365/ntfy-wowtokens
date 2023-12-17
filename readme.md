@@ -1,13 +1,15 @@
-### Use Example (LINUX):
-mkdir python_scripts/
+> [!NOTE]
+Please make sure you have ntfy service or own ntfy server hosted.
+See https://github.com/binwiederhier/ntfy
 
-sudo apt install python3.9-pip (or higher version)
+### Example (LINUX):
+mkdir python_scripts/ 
+
+sudo apt install python3.9-pip
 
 sudo python3 -m pip install requirements.txt
 
-sudo crontab -e
-
-### Put files:
+### Files:
 `wowtoken.py` in `~/python_scripts/`
 
 `wowtoken.sh` in `~` (current working directory)
@@ -15,8 +17,8 @@ sudo crontab -e
 `crontab.txt` in command `sudo crontab -e`
 
 
-### NTFY Setup:
-Create `.env` file in `~/python_scripts/` and put
+> [!CAUTION]
+Create `.env` file in `~/python_scripts/` and put the following:
 
 
 ```
